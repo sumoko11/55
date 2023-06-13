@@ -1,0 +1,16 @@
+- Name: faster_rcnn_r50_fpn_syncbn_1350k_obj365v1
+  In Collection: Faster R-CNN
+  Config: configs/objects365/faster_rcnn_r50_fpn_syncbn_1350k_obj365v1.py
+  Metadata:
+    Training Memory (GB): 8.6
+    Iterations: 1350000
+    Training Data: Objects365 v1
+    Training Techniques:
+      - SGD with Momentum
+      - Weight Decay
+  Results:
+  - Task: Object Detection
+    Dataset: Objects365 v1
+    Metrics:
+      box AP: 22.3
+  Weights: https://download.openmmlab.com/mmdetection/v2.0/objects365/faster_rcnn_r50_fpn_syncbn_1350k_obj365v1/faster_rcnn_r50_fpn_syncbn_1350k_obj365v1_20220510_142457-337d8965.pth
